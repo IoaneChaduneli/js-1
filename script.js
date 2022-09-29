@@ -55,3 +55,28 @@ let array2=[[2,-3,5,10],[25,-24,-11,100],[-6,-7,10]]
             console.log(item);
         }
     }
+
+// 7
+let array3 = [ 2, 3, 5, 10,25,24,11, 100 , 6,7, 10 ]
+    for (let item of array3) {
+        if (item % 2 ==0) {
+            console.log(item);
+        } 
+    }
+    for (let item of array3) {
+        if (item % 2 ==1) {
+            console.log(item);
+        }
+    }
+
+// 8
+let user3=[
+    {username:"giorgi", status:false},
+    {username:"levani, status: false"},
+    {username: "anna ", status:true}
+]
+    for(let user of user3){
+        if (user.status==true) {
+            console.log(user);
+        }
+    }
